@@ -44,6 +44,7 @@
     {"id":{"name":"sprCharSwingCooldown","path":"sprites/sprCharSwingCooldown/sprCharSwingCooldown.yy",},},
     {"id":{"name":"sprCharSwingDuring","path":"sprites/sprCharSwingDuring/sprCharSwingDuring.yy",},},
     {"id":{"name":"sprCharSwingStartup","path":"sprites/sprCharSwingStartup/sprCharSwingStartup.yy",},},
+    {"id":{"name":"sprSwordSwing","path":"sprites/sprSwordSwing/sprSwordSwing.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

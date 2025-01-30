@@ -24,5 +24,6 @@
     {"name":"sprCharSwingCooldown","order":4,"path":"sprites/sprCharSwingCooldown/sprCharSwingCooldown.yy",},
     {"name":"sprCharSwingDuring","order":5,"path":"sprites/sprCharSwingDuring/sprCharSwingDuring.yy",},
     {"name":"sprCharSwingStartup","order":6,"path":"sprites/sprCharSwingStartup/sprCharSwingStartup.yy",},
+    {"name":"sprSwordSwing","order":3,"path":"sprites/sprSwordSwing/sprSwordSwing.yy",},
   ],
 }
