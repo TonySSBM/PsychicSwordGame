@@ -63,14 +63,24 @@ if(!attacking){
 	
 		if(key_dash){
 			speed *= 1.75;
+			if(back){
+				sprite_index = sprCharSprintBack;
+			}else{
+				sprite_index = sprCharSprint;
+			}
 		}
 	}
-	if(!attacking && key_attack){
+	if(!charging && key_attack){
+		charging = true;
+	}else if(charging && !key_attack){
+		charging = false;
 		attacking = true;
 		sprite_index = sprCharSwingStartup;
 	}
 }
 
 if(attacking){
-	//
+	if(sprite_index == sprCharSwingCooldown && key_attack){
+		sprite_index = sprCharSwingDuring;
+	}
 }
