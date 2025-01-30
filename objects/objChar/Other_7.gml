@@ -15,7 +15,6 @@ if(sprite_index == sprCharSwingStartup){
 }else if(sprite_index == sprCharSwingDuring){
 	sprite_index = sprCharSwingCooldown;
 	image_index = 0;
-	instance_destroy(sword);
 }else if(sprite_index == sprCharSwingCooldown){
 	if(back){
 		sprite_index = sprCharIdleBack;
