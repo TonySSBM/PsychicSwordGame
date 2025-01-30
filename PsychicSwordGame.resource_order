@@ -21,6 +21,7 @@
     {"name":"sprCharIdleBack","order":2,"path":"sprites/sprCharIdleBack/sprCharIdleBack.yy",},
     {"name":"sprCharRun","order":1,"path":"sprites/sprCharRun/sprCharRun.yy",},
     {"name":"sprCharRunBack","order":3,"path":"sprites/sprCharRunBack/sprCharRunBack.yy",},
+    {"name":"sprCharSprint","order":7,"path":"sprites/sprCharSprint/sprCharSprint.yy",},
     {"name":"sprCharSwingCooldown","order":4,"path":"sprites/sprCharSwingCooldown/sprCharSwingCooldown.yy",},
     {"name":"sprCharSwingDuring","order":5,"path":"sprites/sprCharSwingDuring/sprCharSwingDuring.yy",},
     {"name":"sprCharSwingStartup","order":6,"path":"sprites/sprCharSwingStartup/sprCharSwingStartup.yy",},
