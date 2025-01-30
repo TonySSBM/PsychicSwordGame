@@ -83,15 +83,11 @@ if(!attacking){
 }
 
 if(attacking){
-	if(sprite_index == sprCharSwingCooldown && key_attack/* && sword == null*/){
+	if(sprite_index == sprCharSwingCooldown && key_attack && sword != null && instance_exists(sword) && sword.image_index > 3){
 		sprite_index = sprCharSwingDuring;
-		if(sword == null){
-			sword =	instance_create_layer(x, y, layer, objSword);
-		}else{
-			sword.x = x;
-			sword.y = y;
-			sword.image_xscale = sword.image_xscale * -1; 
-		}
+		sword.x = x;
+		sword.y = y;
+		sword.image_xscale = sword.image_xscale * -1; 
 		
 		if(movementDirection != 5){
 			sword.image_angle = directionList[movementDirection - 1] + 90;
