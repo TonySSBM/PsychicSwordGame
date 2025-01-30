@@ -5,6 +5,8 @@ back = false;
 flipped = false;
 attacking = false;
 charging = false;
+sword = objSword;
+swordOffset = 40.0;
 
 key_up = (keyboard_check(ord("W")) || keyboard_check(vk_up));
 key_down = (keyboard_check(ord("S")) || keyboard_check(vk_down));

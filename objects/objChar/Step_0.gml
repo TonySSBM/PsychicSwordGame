@@ -8,6 +8,8 @@ key_right = (keyboard_check(ord("D")) || keyboard_check(vk_right));
 key_dash = (keyboard_check(ord("O")) || keyboard_check(ord("Z")));
 key_attack = (keyboard_check(ord("P")) || keyboard_check(ord("X")));
 
+image_speed = 1;
+
 //movement directions - cleaned up socd with neutral socd
 var movementDirection = 5;
 
@@ -75,6 +77,7 @@ if(!attacking){
 	}else if(charging && !key_attack){
 		charging = false;
 		attacking = true;
+		speed = 0;
 		sprite_index = sprCharSwingStartup;
 	}
 }
@@ -82,5 +85,19 @@ if(!attacking){
 if(attacking){
 	if(sprite_index == sprCharSwingCooldown && key_attack){
 		sprite_index = sprCharSwingDuring;
+		sword =	instance_create_layer(x, y, layer, objSword);
+		
+		if(movementDirection != 5){
+			sword.image_angle = directionList[movementDirection - 1] + 90;
+		}else{
+			sword.image_angle = direction + 90;
+		}
+		
+		sword.image_index = 0;
+		image_index = 0;
+		
+		sword.x += lengthdir_x(swordOffset, sword.image_angle - 90);
+		sword.y += lengthdir_y(swordOffset, sword.image_angle - 90);
+		
 	}
 }

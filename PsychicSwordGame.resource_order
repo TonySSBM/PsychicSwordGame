@@ -13,11 +13,11 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"sprChar","order":2,"path":"folders/Sprites/sprChar.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"objSword","order":1,"path":"objects/objSword/objSword.yy",},
     {"name":"sprCharIdleBack","order":2,"path":"sprites/sprCharIdleBack/sprCharIdleBack.yy",},
     {"name":"sprCharRun","order":1,"path":"sprites/sprCharRun/sprCharRun.yy",},
     {"name":"sprCharRunBack","order":3,"path":"sprites/sprCharRunBack/sprCharRunBack.yy",},
@@ -25,7 +25,7 @@
     {"name":"sprCharSprintBack","order":8,"path":"sprites/sprCharSprintBack/sprCharSprintBack.yy",},
     {"name":"sprCharSwingCooldown","order":4,"path":"sprites/sprCharSwingCooldown/sprCharSwingCooldown.yy",},
     {"name":"sprCharSwingDuring","order":5,"path":"sprites/sprCharSwingDuring/sprCharSwingDuring.yy",},
-    {"name":"sprCharSwingStartup","order":6,"path":"sprites/sprCharSwingStartup/sprCharSwingStartup.yy",},
-    {"name":"sprSwordSwing","order":3,"path":"sprites/sprSwordSwing/sprSwordSwing.yy",},
+    {"name":"sprCharSwingStartup","order":2,"path":"sprites/sprCharSwingStartup/sprCharSwingStartup.yy",},
+    {"name":"sprSwordSwing","order":1,"path":"sprites/sprSwordSwing/sprSwordSwing.yy",},
   ],
 }

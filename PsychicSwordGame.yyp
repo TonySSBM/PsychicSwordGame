@@ -36,6 +36,7 @@
   "name":"PsychicSwordGame",
   "resources":[
     {"id":{"name":"objChar","path":"objects/objChar/objChar.yy",},},
+    {"id":{"name":"objSword","path":"objects/objSword/objSword.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sprCharIdle","path":"sprites/sprCharIdle/sprCharIdle.yy",},},
     {"id":{"name":"sprCharIdleBack","path":"sprites/sprCharIdleBack/sprCharIdleBack.yy",},},

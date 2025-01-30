@@ -3,8 +3,19 @@
 
 if(sprite_index == sprCharSwingStartup){
 	sprite_index = sprCharSwingDuring;
+	
+	sword =	instance_create_layer(x, y, layer, objSword);
+	
+	sword.image_angle = direction + 90;
+	image_index = 0;
+	sword.image_index = 0;
+	
+	sword.x += lengthdir_x(swordOffset, sword.image_angle - 90);
+	sword.y += lengthdir_y(swordOffset, sword.image_angle - 90);
 }else if(sprite_index == sprCharSwingDuring){
 	sprite_index = sprCharSwingCooldown;
+	image_index = 0;
+	instance_destroy(sword);
 }else if(sprite_index == sprCharSwingCooldown){
 	if(back){
 		sprite_index = sprCharIdleBack;
@@ -12,4 +23,5 @@ if(sprite_index == sprCharSwingStartup){
 		sprite_index = sprCharIdle;
 	}
 	attacking = false;
+	image_index = 0;
 }
