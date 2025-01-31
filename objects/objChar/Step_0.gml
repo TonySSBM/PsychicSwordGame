@@ -51,6 +51,7 @@ if(!attacking){
 		}else{
 			if(back){
 				sprite_index = sprCharRunBack;
+				back = false;
 			}else{
 				sprite_index = sprCharRun;
 			}
@@ -67,6 +68,7 @@ if(!attacking){
 			speed *= 1.75;
 			if(back){
 				sprite_index = sprCharSprintBack;
+				back = false;
 			}else{
 				sprite_index = sprCharSprint;
 			}
