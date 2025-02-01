@@ -3,11 +3,11 @@
 
 if(sprite_index == sprCharSwingStartup){
 	sprite_index = sprCharSwingDuring;
+	image_index = 0;
 	
 	sword =	instance_create_layer(x, y, layer, objSword);
 	
 	sword.image_angle = direction + 90;
-	image_index = 0;
 	sword.image_index = 0;
 	
 	sword.x += lengthdir_x(swordOffset, sword.image_angle - 90);
